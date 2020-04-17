@@ -8,5 +8,5 @@
 
 如果你希望为本维基百科提供词条，请阅读以下内容，或加入QQ群 730014241
 
-(tiddlywiki 使用教程)[http://tw5-zh.tiddlyspot.com]
+[tiddlywiki 使用教程](http://tw5-zh.tiddlyspot.com)
 

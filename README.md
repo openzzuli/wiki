@@ -1,0 +1,2 @@
+# wiki
+OpenZZULI WiKi

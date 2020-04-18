@@ -255,6 +255,8 @@ Error message and password prompt
 
 <li>数学</li>
 
+<li>搜索引擎的使用原则及技巧</li>
+
 <li>文法</li>
 
 <li>文法与语言</li>
@@ -13698,7 +13700,7 @@ Error message and password prompt
 <div bag="default" created="20200417142307349" creator="O" modified="20200417142310488" modifier="OpenZZUL" revision="1" title="$:/status/UserName">
 <pre>OpenZZULI</pre>
 </div>
-<div created="20200417150018121" creator="OpenZZULI" list="WiKi $:/ControlPanel 告示板 TODO" modified="20200417151502274" modifier="OpenZZULI" title="$:/StoryList">
+<div created="20200418032834556" creator="OpenZZULI" list="搜索引擎的使用原则及技巧 [[编写 WebSocket 服务器]] 告示板" modified="20200418032834556" modifier="OpenZZULI" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -14104,6 +14106,63 @@ a.tc-tiddlylink-external:hover {
 <pre>&lt;&lt;list-links &quot;[tag[数学]]&quot;&gt;&gt;
 
 [[微积分的本质|https://www.bilibili.com/video/BV1ob411y7L9?p=12]]</pre>
+</div>
+<div created="20200418033009463" creator="OpenZZULI" modified="20200418033138687" modifier="OpenZZULI" tags="目录" title="搜索引擎的使用原则及技巧">
+<pre>!! 摘要
+
+搜索引擎作为数字时代的信息入口，给我们提供了方便的获取信息的可能性。但是，许多人对于搜索引擎的理解仅仅局限于“关键词-&gt;浏览结果”。信息的冗余或者损减导致信息质量不佳。本文依据《信息分析课二期》的课程内容，总结了几个搜索引擎必要的关键点。
+
+!! 1. 关键词搜索善用逻辑词
+
+熟悉编程的人都知道，编程中有三种逻辑判断：逻辑与（AND），逻辑或（OR）和逻辑非（NOT），在Google搜索引擎中，三个关键词依然适用：
+
+加AND逻辑与：搜索N个关键词的子集
+加OR逻辑或：搜索N个关键词的并集
+加-逻辑非：从大范围减去特定关键词，例如，搜索（科学发展 -科学发展观）则结果为含有（科学发展）但不含（科学发展观）的结果
+
+!! 2. 给关键词加上更多的限制条件
+
+替换模糊匹配：（第界大学生运动会）
+加“”精确搜索：（“教育技术学”）
+intitle: keywords: 只在标题里搜索
+inurl: keywords: 只在url里搜索
+intext: keywords: 只在文章内容里搜索
+keywords site: xxx.com: 在特定网站里搜索
+keywords filetype: ppt: 搜索所有PPT类型结果
+混合使用： a AND b AND (c OR d)
+a site:xxx.com AND filetype:ppt
+
+!! 3. 关键词的获取
+
+上位词、同义词（相关词）、下位词：即外延更广（上位词）或内涵更窄（下位词）的词语，如：花是鲜花的上位词，花是植物的下位词
+在学术上，上位词和下位词是帮助你延展和收缩概念的绝好工具。在探索一个新的学术领域的时候，关键词（或者叫做术语）是特别重要的一个突破口。每个学科对解释现象都有自己的一套语言；现象的边界就是词语的边界，真正弄明白一个词语，或许可为你打开获取新经验的通道。
+万方数据库 - 智能拓展：http://www.wanfangdata.com.cn/index.html
+寻找上位术语、下位术语、同义词、相关概念、学科范畴
+搜索一个议题时要丰富词性：动词+名词 &gt; 名词+名词
+
+!! 4. 面对问题：信息检索的小技巧
+
+问题分解：碎片化任务，可以利用零碎时间解决问题
+找上位词：题干1-AB，题干2-BC，题干3-BDEF，则关键求解上位词B
+中英文交叉验证：打开一门语言就等于打开一个世界
+meta search engine(元搜索引擎)：
+All the Internet Search Engine
+All search engines in one, the new tab
+Internet Archive: Digital Library of Free &amp; Borrowable Books, Movies, Music &amp; Wayback Machine
+
+!! 5. 训练方法：不断记录和反思搜索过程
+
+Tabs Outliner插件：复盘搜索深度 Chrome Web Store - Extensions
+Sidewise插件：Sidewise Tree Style Tabs - Chrome Web Store
+讨论：
+
+以图搜图：比如，你想搜一幅画叫什么名字，你既不知道作者，也不知道如何用合适的语言去描述这幅画，你可以利用搜索引擎直接搜索图片。现在大多数搜索引擎都支持直接做图片的搜索。
+互联网上的信息及时、方便，但是也经常有信息缺失的问题。比如，网页的更新可能会导致原来的信息找不到，那么能回看一个网页的历史页面就很重要。互联网时光机 Internet Archive: Digital Library of Free &amp; Borrowable Books, Movies, Music &amp; Wayback Machine 帮助你存档任何一个网站从开始建立时的历史页面。
+
+作者：洋仔Cyrus
+链接：https://www.jianshu.com/p/925b04c0e674
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</pre>
 </div>
 <div bag="default" created="20200415085530927" modified="20200416065959554" revision="0" title="文法" type="text/vnd.tiddlywiki">
 <pre>!!! 文法的形式定义

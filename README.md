@@ -1,5 +1,10 @@
 # OpenZZULI WIKI
 
+直接访问：https://openzzuli.github.io/wiki/
+
+镜像： https://openzzuli.gitee.io/wiki/  （镜像更新可能会滞后）
+
+---
 这里是 OpenZZULI 维基百科的仓库页面
 
 本 wiki 致力于提供 计算机科学 数学 校园生活 等多方面信息
